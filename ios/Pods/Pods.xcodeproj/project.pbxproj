@@ -1,0 +1,1190 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037D5E4AE59FCBE40ADAB25D1E1FE856 /* Pods-PushDemo-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAC215F52ED84C8963E54FC4B961A4D /* Pods-PushDemo-tvOSTests-dummy.m */; };
+		03F26A2107D0A88E448492A51242E5FD /* GPBCodedOutputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 3144A339047FF93537D206919CD8123B /* GPBCodedOutputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		069FE75DD4628E3C9D7BA2432AC9A6F7 /* FieldMask.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCD98927E2E636FDB3DD76DF0E71CFF /* FieldMask.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0865B9957615CBB7F273C5198FD3CDC8 /* GPBMessage_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 19E913B80F30C3E8FAAFEA39F93B2E2F /* GPBMessage_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3F8DE8519D0B383766CB2D870E3BA8 /* GPBExtensionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E536CB0A86E891E53BBBCE77E73737B /* GPBExtensionRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3FAE8076160F44C39C5319F14A96EA /* Duration.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = D53670FAA6E1718A718B2DEC4A0D5961 /* Duration.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1105EA8F374E750DF243FB9537F19D9B /* GPBWellKnownTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6350E3F8D26F471341917F83FFA34173 /* GPBWellKnownTypes.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1430E94183430938989160927116B86C /* GPBUtilities_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CD6A8E93072E973518F5B71F6F0228B /* GPBUtilities_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		149A0407E1E29F7314EE7B36B11D5196 /* GPBArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 79718FBF4F4C529E96266576E843738F /* GPBArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18ADE3FA4F8B60066FE852F9571B563A /* Wrappers.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 66511A40A137AF4ED38BD50124E409C3 /* Wrappers.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		214451DCA6AC6C49BBD25FE944F33A1D /* Api.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB00209ED19EF6316064EEA3E014E71 /* Api.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22CC3AB1CBBF6D601D4D7CE901055940 /* Type.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 12678477998C033F1E20696535904D0D /* Type.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23DB15172B47A04F12CD04927E1B0327 /* GPBUnknownField.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D59C3004FDCA38525EE2EC0EA6A86E7 /* GPBUnknownField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26085A26768440459BB5D60D644FDFCA /* GPBUnknownField_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E2A9FEFA9D13AEDC72FECE90E8ADF06 /* GPBUnknownField_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		277108075AF236B0609B0096A489FC16 /* GPBArray_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = AEDB2243A6CD346CDF0DB9A753A39090 /* GPBArray_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCF30723C37590732E0B4752E6E3695 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = AB05DC9372EAA60C5C0E92E232197796 /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EEF4F3F3554CFECA940B9523BBF8DA4 /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE503410B599E7B4E0E4A35111B6C154 /* GoogleToolboxForMac-dummy.m */; };
+		2FCD31A6F5B9699D6F37D0D799E5EF9B /* GPBWellKnownTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = FBC167413116C6A3D5CB6A6FF890684A /* GPBWellKnownTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37DF8AA3AFD7B8F3183E3642A358599B /* Wrappers.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = EB0EE329D8FF6EA2AF9AC450D83516C7 /* Wrappers.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39F8F7D7BABB4D29F4F3AA5E07C6C8DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3A7726D07D4E9133258986D5CDA233C6 /* GPBProtocolBuffers_RuntimeSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8952804670E9F30C536634A5CFBB8C7B /* GPBProtocolBuffers_RuntimeSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41F07A618BF545698F3F35BB949CD120 /* GPBCodedOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = ED712B0D3871CCA85C312BC2282A4D51 /* GPBCodedOutputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F9C706CC19432B63EB5BCD0354D496 /* GPBExtensionInternals.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0E29E974A875544C2664856945600F /* GPBExtensionInternals.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		456D773F80265C45CC7566CE1386C5E1 /* GPBUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E63401A4016579D0174BC4CF2130180 /* GPBUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		484927DA7B920B1CAADA9A79AB1AD45C /* Pods-PushDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A97947A6CA984F3C2538D771D4F723FF /* Pods-PushDemoTests-dummy.m */; };
+		499191CC9235D8BA880E608BA08648E5 /* GPBUnknownFieldSet_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = DD7791BE8EB96D30317E4AA74D170EBD /* GPBUnknownFieldSet_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54A0B5674C6772EF76D3EFD443B30E2E /* GPBArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BCA419DEE41C61FAEB2F6CF8AE135CA /* GPBArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5CEF11291B7E980F400C19BF611E84AA /* Struct.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = EA487A96C086BF8484214DD55DCE2F2A /* Struct.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5F5F7D0AEB64E82129924CA64B3D13C1 /* GPBUnknownField.m in Sources */ = {isa = PBXBuildFile; fileRef = CC776ACF734C9EAD15DA52BA321A061C /* GPBUnknownField.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		675AB20DF6B3046D7D71FEBF11C1EADB /* Pods-PushDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AEF37528A48804893BDE22BF4F65C4 /* Pods-PushDemo-dummy.m */; };
+		6F3BAABBDEE9B3B5BDD70C7EC857CB63 /* Any.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C4EE1A27D31835838453206F2A58CD /* Any.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		72711DD579724A88CDD3892CDE0F1933 /* GTMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E08BE5D6BE7BC2A5D25659901741F8D /* GTMLogger.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		729ADA4F4A922F14ACBC6CDF123DB176 /* GPBUnknownFieldSet.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE41CCD2EF876A2901422565A318450 /* GPBUnknownFieldSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		758939102FC0D70E54640E471BC2D4A0 /* Any.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 001E97685635E5E5D85137D15AC5F1EC /* Any.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79574E8B1967C430D190A4E7E8B5005F /* Timestamp.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB0B082A039C59F90E978F02C6326E5 /* Timestamp.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7C8EAD3AC6015AB25EA5D06951335C52 /* SourceContext.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = AC767302BE2740A218AB38624FAF415D /* SourceContext.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7DCC49F8BB823F38B700A32F5294AC14 /* GTMLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = E86D866E7527079B9C72838146FC65E0 /* GTMLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82125A009576BC2CC4CA71B501331A42 /* GPBDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 403E122259C6D09E8CA6642A34DFD387 /* GPBDictionary.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84A28BD4014C0319F851CDE094B5C47B /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = 62EAF55A7EE5B2037B8244AFD62E4C61 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		86720AC406506A010160DF4027FADEAB /* GPBWireFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FD64A48EE22B8B96AC74D7B5F9ED9D /* GPBWireFormat.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		870B1982FA00C85169A06F6799CF5931 /* GPBRuntimeTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F15AF57D88CBECACCD6280434B04F4 /* GPBRuntimeTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8785C713ED568CCE32BE45F163503539 /* GPBRootObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 2587BF16BB234A7A454FB192744EEF0B /* GPBRootObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8CFC46D60BEDF9B6E733474FC5549358 /* GPBMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = A7ED402B02A8F914913B199E8524129B /* GPBMessage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		91E009D459BE3C28B94C2CE08CF3DFD2 /* GPBExtensionInternals.h in Headers */ = {isa = PBXBuildFile; fileRef = F935CCABB5F02337BDDE8E5F38F3069D /* GPBExtensionInternals.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9210CCF2C78B3808BB188773153D5A99 /* GPBRootObject_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4257DCAC74DB9528BE30D480C83A0614 /* GPBRootObject_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9845AE9B743700CC12E3973DAC7BEB8E /* GPBUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = AF2EA46D8AA4FAEA8F6A3270C49D6FFD /* GPBUtilities.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9ACCC2D1AC90F1B09B5FB63113406387 /* GPBProtocolBuffers.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE01C0885F4C0235FE15152DD46C589 /* GPBProtocolBuffers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E072C3F652D638429C9E23515265CEE /* GPBRootObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA8A3C6BF5B08B278E78881E31D040D /* GPBRootObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FCD29D9F6BECB3156C2037BFD3B7279 /* GPBDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = C0B66BBE7A2E9B28EE087721F90D00F2 /* GPBDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A41A7F0049C5D600BD7C768884EA88C3 /* Duration.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C039443FDB80129B611548AD43B612D /* Duration.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A914AE3EDFD9FDFBCBE010DEA271B523 /* SourceContext.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 83B4ABDC75BD3D90ED81B8E3493A181B /* SourceContext.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B03270A7B24CA0B523698CA0C1795656 /* GPBMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1618937E888411B5734B28440C9984BB /* GPBMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B10868F236194235EE1FF7A7093D70D4 /* GPBUnknownFieldSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A6D92AEE6DA9E51EFEDB35B8CB850F /* GPBUnknownFieldSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B29259BD1B6E827F5C2562FBE47CBF7F /* FieldMask.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 49742342001E384A48A41292E56FCF35 /* FieldMask.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B988EC9688A58FAB35F64F131F8AF254 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		B9B1FC27A45405D7C21FE884CBA47090 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = B5D730424C36A9D0BB12473678C5C609 /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA2AFABC6E79953DB9AFDD1CF882378A /* Timestamp.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EF7A1D9262A7F997B1CB962C559EDFB /* Timestamp.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A8D6D9FA5306815383DA772C395437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		C7F1E431CA6F0EE1AFFBA5A545390A94 /* GPBDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5FFA7382C895811E3B0023C0F41A23 /* GPBDescriptor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CA0FF971AAC052FC4256F633E119BAF2 /* Protobuf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0317CC4332742F7BBFD8954FFEF65EA /* Protobuf-dummy.m */; };
+		CC166033E198B2DDB73A06302BF87BD0 /* GPBCodedInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = CCCC637CB53D0538C2506E95224E1257 /* GPBCodedInputStream.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCA230CB1CE85A7FFFC5307F04517972 /* Empty.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DB44A4D25E7DF53601657E9E2474251 /* Empty.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE93F41A7B7F305A2D94AE89B03AEC9B /* Api.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A51F2B567669037BF3936E5CA172E70 /* Api.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D34B873B86E3DF268939DF316AA1CD7D /* GPBCodedInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FA04AC13CFC73F6CE9A4DED9CE97908 /* GPBCodedInputStream.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D6CD46C94F6C5A660762AB0C88937F1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D7082BCBA046F8E9F8D745FE4A5F046A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DA3677BE7C670CBB27DEF56F580F0AEE /* GPBDescriptor_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A954DE546890C19A47689E7880DEB58 /* GPBDescriptor_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA526E3EBEEF993EF10CD2EB38CE5480 /* GPBWireFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = DF3EBD0AB922CCB3EEA466256111AD6E /* GPBWireFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E294277A3AAD0A62FB3B5F71F2B38D5A /* Empty.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 560DFBB8666AEC35F6725B87070327EF /* Empty.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E2E91BB69902CB8A4075D3551A4F8C2D /* Type.pbobjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A48D3AFA32C77CF2B0E0EF95B65114B /* Type.pbobjc.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E68D622007E93277C291D5F43F063BC5 /* Struct.pbobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = B9DB2913D1A90A71CF70E840F03289A9 /* Struct.pbobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E80E9A8F150FA96C2224FD7F1DEF2D5A /* GPBDictionary_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = DD120B7A683C50623F2D70ACB691D30E /* GPBDictionary_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB80E091D1CBA01D78225C9E1EFD4E5A /* GPBCodedInputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = BEE4D1E30EF324F593A1FC334C3C79D8 /* GPBCodedInputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBB5AF86577891EBAB7DDEDDABA17E88 /* GPBDescriptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DF2B5848E0B8DD0038079C4F46E73D7 /* GPBDescriptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F025E232AF858C92BFF3655752356EEB /* GPBBootstrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 540B2D2CBD1C17660F3ED370958484B8 /* GPBBootstrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBB420201E868D90FF6096FC30A51F11 /* GPBExtensionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3145450B8C4DA84CE065BF8059AC12 /* GPBExtensionRegistry.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF80BABD40FBA5E6202DC450E819FFA2 /* GPBCodedOutputStream_PackagePrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F650B9F7CD0DFCCBE4F47028DA2A88B /* GPBCodedOutputStream_PackagePrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0016524160DC32D25AA851C439A0ADF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B800FD675250D5E175A9377B8456C387;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		EE83995EC42AA42C4A457C3469BE28DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFA7CBA59B14A8728F881517A190A475;
+			remoteInfo = Protobuf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001E97685635E5E5D85137D15AC5F1EC /* Any.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Any.pbobjc.h; path = objectivec/google/protobuf/Any.pbobjc.h; sourceTree = "<group>"; };
+		08FD64A48EE22B8B96AC74D7B5F9ED9D /* GPBWireFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBWireFormat.m; path = objectivec/GPBWireFormat.m; sourceTree = "<group>"; };
+		12678477998C033F1E20696535904D0D /* Type.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Type.pbobjc.h; path = objectivec/google/protobuf/Type.pbobjc.h; sourceTree = "<group>"; };
+		1618937E888411B5734B28440C9984BB /* GPBMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBMessage.h; path = objectivec/GPBMessage.h; sourceTree = "<group>"; };
+		18AE9201AF909848D4144716CC7050C2 /* libPods-PushDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PushDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E913B80F30C3E8FAAFEA39F93B2E2F /* GPBMessage_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBMessage_PackagePrivate.h; path = objectivec/GPBMessage_PackagePrivate.h; sourceTree = "<group>"; };
+		1A954DE546890C19A47689E7880DEB58 /* GPBDescriptor_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor_PackagePrivate.h; path = objectivec/GPBDescriptor_PackagePrivate.h; sourceTree = "<group>"; };
+		1C039443FDB80129B611548AD43B612D /* Duration.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Duration.pbobjc.m; path = objectivec/google/protobuf/Duration.pbobjc.m; sourceTree = "<group>"; };
+		1EF7A1D9262A7F997B1CB962C559EDFB /* Timestamp.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Timestamp.pbobjc.h; path = objectivec/google/protobuf/Timestamp.pbobjc.h; sourceTree = "<group>"; };
+		1F9776517EDFA82DB5270BC39B1EE73A /* Pods-PushDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushDemo-frameworks.sh"; sourceTree = "<group>"; };
+		1FA04AC13CFC73F6CE9A4DED9CE97908 /* GPBCodedInputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBCodedInputStream.m; path = objectivec/GPBCodedInputStream.m; sourceTree = "<group>"; };
+		1FABBB45ED5DA26517E707FB87509F45 /* Pods-PushDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		23DF27EFB5A4DDDC05A71D8BBF41D407 /* Protobuf-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Protobuf-prefix.pch"; sourceTree = "<group>"; };
+		2587BF16BB234A7A454FB192744EEF0B /* GPBRootObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBRootObject.m; path = objectivec/GPBRootObject.m; sourceTree = "<group>"; };
+		2BCA419DEE41C61FAEB2F6CF8AE135CA /* GPBArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBArray.m; path = objectivec/GPBArray.m; sourceTree = "<group>"; };
+		2BCD98927E2E636FDB3DD76DF0E71CFF /* FieldMask.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FieldMask.pbobjc.h; path = objectivec/google/protobuf/FieldMask.pbobjc.h; sourceTree = "<group>"; };
+		2E2A9FEFA9D13AEDC72FECE90E8ADF06 /* GPBUnknownField_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField_PackagePrivate.h; path = objectivec/GPBUnknownField_PackagePrivate.h; sourceTree = "<group>"; };
+		2E3145450B8C4DA84CE065BF8059AC12 /* GPBExtensionRegistry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionRegistry.m; path = objectivec/GPBExtensionRegistry.m; sourceTree = "<group>"; };
+		2E536CB0A86E891E53BBBCE77E73737B /* GPBExtensionRegistry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBExtensionRegistry.h; path = objectivec/GPBExtensionRegistry.h; sourceTree = "<group>"; };
+		3144A339047FF93537D206919CD8123B /* GPBCodedOutputStream.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBCodedOutputStream.m; path = objectivec/GPBCodedOutputStream.m; sourceTree = "<group>"; };
+		35D547B2513B9314C87618204F78FE62 /* libPods-PushDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PushDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D1B1AABDB953FBA64CFE848B4AFC09 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		37AB8523D4B5F7828206A8D829687D3F /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		38AEF37528A48804893BDE22BF4F65C4 /* Pods-PushDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushDemo-dummy.m"; sourceTree = "<group>"; };
+		3A48D3AFA32C77CF2B0E0EF95B65114B /* Type.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Type.pbobjc.m; path = objectivec/google/protobuf/Type.pbobjc.m; sourceTree = "<group>"; };
+		3C5FFA7382C895811E3B0023C0F41A23 /* GPBDescriptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBDescriptor.m; path = objectivec/GPBDescriptor.m; sourceTree = "<group>"; };
+		403E122259C6D09E8CA6642A34DFD387 /* GPBDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBDictionary.m; path = objectivec/GPBDictionary.m; sourceTree = "<group>"; };
+		4257DCAC74DB9528BE30D480C83A0614 /* GPBRootObject_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRootObject_PackagePrivate.h; path = objectivec/GPBRootObject_PackagePrivate.h; sourceTree = "<group>"; };
+		45115BA72E40EF3406639CEFA4D22429 /* Pods-PushDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		47B2478294CD0BDC89AD4A48441D8D21 /* libPods-PushDemo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PushDemo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49742342001E384A48A41292E56FCF35 /* FieldMask.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FieldMask.pbobjc.m; path = objectivec/google/protobuf/FieldMask.pbobjc.m; sourceTree = "<group>"; };
+		4985912EC58108202C6D3C1DE1C43152 /* Protobuf.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Protobuf.xcconfig; sourceTree = "<group>"; };
+		4C8FF34AD6A668E267BADB6B8B0DC6E6 /* Pods-PushDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		52F425E51CB90DC0F16D25089E5F577A /* Pods-PushDemo-tvOSTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushDemo-tvOSTests-resources.sh"; sourceTree = "<group>"; };
+		540B2D2CBD1C17660F3ED370958484B8 /* GPBBootstrap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBBootstrap.h; path = objectivec/GPBBootstrap.h; sourceTree = "<group>"; };
+		54C4EE1A27D31835838453206F2A58CD /* Any.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Any.pbobjc.m; path = objectivec/google/protobuf/Any.pbobjc.m; sourceTree = "<group>"; };
+		560DFBB8666AEC35F6725B87070327EF /* Empty.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Empty.pbobjc.m; path = objectivec/google/protobuf/Empty.pbobjc.m; sourceTree = "<group>"; };
+		5BA8154016F0D2BC4A33B198E52B8F3B /* Pods-PushDemo-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushDemo-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CD6A8E93072E973518F5B71F6F0228B /* GPBUtilities_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities_PackagePrivate.h; path = objectivec/GPBUtilities_PackagePrivate.h; sourceTree = "<group>"; };
+		5D3D0F2D34FBA8D3607147A7D67AA9F3 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseNanoPB.framework; path = Frameworks/FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		62EAF55A7EE5B2037B8244AFD62E4C61 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		6350E3F8D26F471341917F83FFA34173 /* GPBWellKnownTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBWellKnownTypes.m; path = objectivec/GPBWellKnownTypes.m; sourceTree = "<group>"; };
+		66386A83E51D8882A06B4826D556C639 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCoreDiagnostics.framework; path = Frameworks/FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		66511A40A137AF4ED38BD50124E409C3 /* Wrappers.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Wrappers.pbobjc.m; path = objectivec/google/protobuf/Wrappers.pbobjc.m; sourceTree = "<group>"; };
+		6C3F5FE155294108B2C460C2EC7F5905 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		6DF2B5848E0B8DD0038079C4F46E73D7 /* GPBDescriptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDescriptor.h; path = objectivec/GPBDescriptor.h; sourceTree = "<group>"; };
+		79718FBF4F4C529E96266576E843738F /* GPBArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBArray.h; path = objectivec/GPBArray.h; sourceTree = "<group>"; };
+		7A51F2B567669037BF3936E5CA172E70 /* Api.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Api.pbobjc.h; path = objectivec/google/protobuf/Api.pbobjc.h; sourceTree = "<group>"; };
+		7B3A2CC3512CC7155AD8675DC0EAECF6 /* Pods-PushDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7D59C3004FDCA38525EE2EC0EA6A86E7 /* GPBUnknownField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownField.h; path = objectivec/GPBUnknownField.h; sourceTree = "<group>"; };
+		7DB44A4D25E7DF53601657E9E2474251 /* Empty.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Empty.pbobjc.h; path = objectivec/google/protobuf/Empty.pbobjc.h; sourceTree = "<group>"; };
+		8016D2A445C75E16EF4D3766700337AC /* Pods-PushDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushDemoTests-resources.sh"; sourceTree = "<group>"; };
+		83B4ABDC75BD3D90ED81B8E3493A181B /* SourceContext.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SourceContext.pbobjc.h; path = objectivec/google/protobuf/SourceContext.pbobjc.h; sourceTree = "<group>"; };
+		8952804670E9F30C536634A5CFBB8C7B /* GPBProtocolBuffers_RuntimeSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers_RuntimeSupport.h; path = objectivec/GPBProtocolBuffers_RuntimeSupport.h; sourceTree = "<group>"; };
+		8E9BE954FB89220166C87B8B5206D83D /* Pods-PushDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8F650B9F7CD0DFCCBE4F47028DA2A88B /* GPBCodedOutputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream_PackagePrivate.h; path = objectivec/GPBCodedOutputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		8F99A74D0E82B0121B23C7A46C9F460B /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseMessaging.framework; path = Frameworks/FirebaseMessaging.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E08BE5D6BE7BC2A5D25659901741F8D /* GTMLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GTMLogger.m; path = Foundation/GTMLogger.m; sourceTree = "<group>"; };
+		9E0E29E974A875544C2664856945600F /* GPBExtensionInternals.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBExtensionInternals.m; path = objectivec/GPBExtensionInternals.m; sourceTree = "<group>"; };
+		9E63401A4016579D0174BC4CF2130180 /* GPBUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUtilities.h; path = objectivec/GPBUtilities.h; sourceTree = "<group>"; };
+		9EA8A3C6BF5B08B278E78881E31D040D /* GPBRootObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRootObject.h; path = objectivec/GPBRootObject.h; sourceTree = "<group>"; };
+		9F56DF0CB38771E1D8B7D07AA7418B75 /* Pods-PushDemo-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PushDemo-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9FE01C0885F4C0235FE15152DD46C589 /* GPBProtocolBuffers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBProtocolBuffers.h; path = objectivec/GPBProtocolBuffers.h; sourceTree = "<group>"; };
+		A7ED402B02A8F914913B199E8524129B /* GPBMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBMessage.m; path = objectivec/GPBMessage.m; sourceTree = "<group>"; };
+		A97947A6CA984F3C2538D771D4F723FF /* Pods-PushDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushDemoTests-dummy.m"; sourceTree = "<group>"; };
+		AAE41CCD2EF876A2901422565A318450 /* GPBUnknownFieldSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet.h; path = objectivec/GPBUnknownFieldSet.h; sourceTree = "<group>"; };
+		AB05DC9372EAA60C5C0E92E232197796 /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		AC767302BE2740A218AB38624FAF415D /* SourceContext.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SourceContext.pbobjc.m; path = objectivec/google/protobuf/SourceContext.pbobjc.m; sourceTree = "<group>"; };
+		AEDB2243A6CD346CDF0DB9A753A39090 /* GPBArray_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBArray_PackagePrivate.h; path = objectivec/GPBArray_PackagePrivate.h; sourceTree = "<group>"; };
+		AF2DC3B9FAAD5463A0CE71136231D6D9 /* Pods-PushDemo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushDemo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF2EA46D8AA4FAEA8F6A3270C49D6FFD /* GPBUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUtilities.m; path = objectivec/GPBUtilities.m; sourceTree = "<group>"; };
+		B2A6D92AEE6DA9E51EFEDB35B8CB850F /* GPBUnknownFieldSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownFieldSet.m; path = objectivec/GPBUnknownFieldSet.m; sourceTree = "<group>"; };
+		B5D730424C36A9D0BB12473678C5C609 /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		B9DB2913D1A90A71CF70E840F03289A9 /* Struct.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Struct.pbobjc.h; path = objectivec/google/protobuf/Struct.pbobjc.h; sourceTree = "<group>"; };
+		BBAC215F52ED84C8963E54FC4B961A4D /* Pods-PushDemo-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PushDemo-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		BEE4D1E30EF324F593A1FC334C3C79D8 /* GPBCodedInputStream_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream_PackagePrivate.h; path = objectivec/GPBCodedInputStream_PackagePrivate.h; sourceTree = "<group>"; };
+		C0317CC4332742F7BBFD8954FFEF65EA /* Protobuf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Protobuf-dummy.m"; sourceTree = "<group>"; };
+		C0B66BBE7A2E9B28EE087721F90D00F2 /* GPBDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDictionary.h; path = objectivec/GPBDictionary.h; sourceTree = "<group>"; };
+		C0F15AF57D88CBECACCD6280434B04F4 /* GPBRuntimeTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBRuntimeTypes.h; path = objectivec/GPBRuntimeTypes.h; sourceTree = "<group>"; };
+		C813D0E6986B80C25CC10FB0AE89EC92 /* Pods-PushDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC776ACF734C9EAD15DA52BA321A061C /* GPBUnknownField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GPBUnknownField.m; path = objectivec/GPBUnknownField.m; sourceTree = "<group>"; };
+		CCCC637CB53D0538C2506E95224E1257 /* GPBCodedInputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedInputStream.h; path = objectivec/GPBCodedInputStream.h; sourceTree = "<group>"; };
+		CE503410B599E7B4E0E4A35111B6C154 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D460071AD86AE051EE77A45C8175D7FB /* libGoogleToolboxForMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGoogleToolboxForMac.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53670FAA6E1718A718B2DEC4A0D5961 /* Duration.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Duration.pbobjc.h; path = objectivec/google/protobuf/Duration.pbobjc.h; sourceTree = "<group>"; };
+		D5B657876DB179602F5866C9186D0CF2 /* Pods-PushDemo-tvOSTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushDemo-tvOSTests-frameworks.sh"; sourceTree = "<group>"; };
+		DD120B7A683C50623F2D70ACB691D30E /* GPBDictionary_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBDictionary_PackagePrivate.h; path = objectivec/GPBDictionary_PackagePrivate.h; sourceTree = "<group>"; };
+		DD7791BE8EB96D30317E4AA74D170EBD /* GPBUnknownFieldSet_PackagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBUnknownFieldSet_PackagePrivate.h; path = objectivec/GPBUnknownFieldSet_PackagePrivate.h; sourceTree = "<group>"; };
+		DDB00209ED19EF6316064EEA3E014E71 /* Api.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Api.pbobjc.m; path = objectivec/google/protobuf/Api.pbobjc.m; sourceTree = "<group>"; };
+		DF3EBD0AB922CCB3EEA466256111AD6E /* GPBWireFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWireFormat.h; path = objectivec/GPBWireFormat.h; sourceTree = "<group>"; };
+		E02229F0115D720F63F7F4792EF69F97 /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		E4A5EB4C02C08BF5564A410817CA8904 /* libProtobuf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libProtobuf.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4DCD617CE4CE0BC53F18CBAA66541BF /* Pods-PushDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PushDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E86D866E7527079B9C72838146FC65E0 /* GTMLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GTMLogger.h; path = Foundation/GTMLogger.h; sourceTree = "<group>"; };
+		EA487A96C086BF8484214DD55DCE2F2A /* Struct.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Struct.pbobjc.m; path = objectivec/google/protobuf/Struct.pbobjc.m; sourceTree = "<group>"; };
+		EB0EE329D8FF6EA2AF9AC450D83516C7 /* Wrappers.pbobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Wrappers.pbobjc.h; path = objectivec/google/protobuf/Wrappers.pbobjc.h; sourceTree = "<group>"; };
+		EB9F14C2DCDDD65C5B6AAEC479D2D7DD /* Pods-PushDemo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushDemo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED712B0D3871CCA85C312BC2282A4D51 /* GPBCodedOutputStream.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBCodedOutputStream.h; path = objectivec/GPBCodedOutputStream.h; sourceTree = "<group>"; };
+		EF5AA8FE9E9E725AAEC5D70A9B690572 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		F60DF1C458CB32F0C8777126EA40A1D6 /* Pods-PushDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushDemo-resources.sh"; sourceTree = "<group>"; };
+		F817B26FA6E1E9546E7C721A922DE053 /* Pods-PushDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PushDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		F84B3D5AD2479682F40C1B1C205CD658 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		F93117CAEB7BCFB3B03A42AB80DD83FA /* Pods-PushDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PushDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		F935CCABB5F02337BDDE8E5F38F3069D /* GPBExtensionInternals.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBExtensionInternals.h; path = objectivec/GPBExtensionInternals.h; sourceTree = "<group>"; };
+		FBC167413116C6A3D5CB6A6FF890684A /* GPBWellKnownTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GPBWellKnownTypes.h; path = objectivec/GPBWellKnownTypes.h; sourceTree = "<group>"; };
+		FFB0B082A039C59F90E978F02C6326E5 /* Timestamp.pbobjc.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Timestamp.pbobjc.m; path = objectivec/google/protobuf/Timestamp.pbobjc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		145981F259D9CA2C1B46AB9F4CF2483E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B988EC9688A58FAB35F64F131F8AF254 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		369C1576D461903930A87F451F8BD65A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F8F7D7BABB4D29F4F3AA5E07C6C8DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46A1E1EE173E59EFAE13DE6EDC035662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6CD46C94F6C5A660762AB0C88937F1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A21AD3C2346AC7A1A64B97C477348E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7082BCBA046F8E9F8D745FE4A5F046A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA55702A44C9E35CCC81EA07A9830302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A8D6D9FA5306815383DA772C395437 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F69B7E8BE0BED9452B5C8985B1CEF2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7828F15B8E97840FBA6E99D8D1CC18B /* Pods-PushDemo */,
+				0C8C731826F464A6AB0A67AD95F0AE50 /* Pods-PushDemo-tvOSTests */,
+				82EF8E767DB21EA2C6B3379F8568E7D7 /* Pods-PushDemoTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0C8C731826F464A6AB0A67AD95F0AE50 /* Pods-PushDemo-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BA8154016F0D2BC4A33B198E52B8F3B /* Pods-PushDemo-tvOSTests-acknowledgements.markdown */,
+				9F56DF0CB38771E1D8B7D07AA7418B75 /* Pods-PushDemo-tvOSTests-acknowledgements.plist */,
+				BBAC215F52ED84C8963E54FC4B961A4D /* Pods-PushDemo-tvOSTests-dummy.m */,
+				D5B657876DB179602F5866C9186D0CF2 /* Pods-PushDemo-tvOSTests-frameworks.sh */,
+				52F425E51CB90DC0F16D25089E5F577A /* Pods-PushDemo-tvOSTests-resources.sh */,
+				AF2DC3B9FAAD5463A0CE71136231D6D9 /* Pods-PushDemo-tvOSTests.debug.xcconfig */,
+				EB9F14C2DCDDD65C5B6AAEC479D2D7DD /* Pods-PushDemo-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-PushDemo-tvOSTests";
+			path = "Target Support Files/Pods-PushDemo-tvOSTests";
+			sourceTree = "<group>";
+		};
+		0D319A9C5263C0412941A1A3EC4F8805 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				3BD570367DD5E33AC91C3E2F48E6AC34 /* Core */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		19306A63D276A736E5AB1201E0462FD1 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				AB05DC9372EAA60C5C0E92E232197796 /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		1CFA27C2AA41C331BEE5643D27D1399E /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				951560038475051860FDE2F5E2095077 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		30EF295669D4BF8BD0005016018B2179 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D319A9C5263C0412941A1A3EC4F8805 /* Firebase */,
+				71702E9F6CB7EAB64093403F926DFD91 /* FirebaseAnalytics */,
+				9318C1E5ECBC8F5A758A08B10663843F /* FirebaseCore */,
+				1CFA27C2AA41C331BEE5643D27D1399E /* FirebaseInstanceID */,
+				58B8D04DCF15478EF32D0E44E06B0534 /* FirebaseMessaging */,
+				ED480C2E9FB7E69F8950ED16CE5B8F8F /* GoogleToolboxForMac */,
+				7D3FDC13D280CC170470DABC7290D5D7 /* Protobuf */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3BD570367DD5E33AC91C3E2F48E6AC34 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				F84B3D5AD2479682F40C1B1C205CD658 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		450CD6ED4C96E2EF7A2C4FFE8E57C23B /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				E86D866E7527079B9C72838146FC65E0 /* GTMLogger.h */,
+				9E08BE5D6BE7BC2A5D25659901741F8D /* GTMLogger.m */,
+			);
+			name = Logger;
+			sourceTree = "<group>";
+		};
+		458E9803BDEF9C0101F4F89383C1C52B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D460071AD86AE051EE77A45C8175D7FB /* libGoogleToolboxForMac.a */,
+				18AE9201AF909848D4144716CC7050C2 /* libPods-PushDemo.a */,
+				47B2478294CD0BDC89AD4A48441D8D21 /* libPods-PushDemo-tvOSTests.a */,
+				35D547B2513B9314C87618204F78FE62 /* libPods-PushDemoTests.a */,
+				E4A5EB4C02C08BF5564A410817CA8904 /* libProtobuf.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51601AA70AB9A071379735C01FA40F10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C3F5FE155294108B2C460C2EC7F5905 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		58B8D04DCF15478EF32D0E44E06B0534 /* FirebaseMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				79DF0231A00501DA073BFAEAE338E7C4 /* Frameworks */,
+			);
+			path = FirebaseMessaging;
+			sourceTree = "<group>";
+		};
+		71702E9F6CB7EAB64093403F926DFD91 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				51601AA70AB9A071379735C01FA40F10 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		79DF0231A00501DA073BFAEAE338E7C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F99A74D0E82B0121B23C7A46C9F460B /* FirebaseMessaging.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D3FDC13D280CC170470DABC7290D5D7 /* Protobuf */ = {
+			isa = PBXGroup;
+			children = (
+				001E97685635E5E5D85137D15AC5F1EC /* Any.pbobjc.h */,
+				54C4EE1A27D31835838453206F2A58CD /* Any.pbobjc.m */,
+				7A51F2B567669037BF3936E5CA172E70 /* Api.pbobjc.h */,
+				DDB00209ED19EF6316064EEA3E014E71 /* Api.pbobjc.m */,
+				D53670FAA6E1718A718B2DEC4A0D5961 /* Duration.pbobjc.h */,
+				1C039443FDB80129B611548AD43B612D /* Duration.pbobjc.m */,
+				7DB44A4D25E7DF53601657E9E2474251 /* Empty.pbobjc.h */,
+				560DFBB8666AEC35F6725B87070327EF /* Empty.pbobjc.m */,
+				2BCD98927E2E636FDB3DD76DF0E71CFF /* FieldMask.pbobjc.h */,
+				49742342001E384A48A41292E56FCF35 /* FieldMask.pbobjc.m */,
+				79718FBF4F4C529E96266576E843738F /* GPBArray.h */,
+				2BCA419DEE41C61FAEB2F6CF8AE135CA /* GPBArray.m */,
+				AEDB2243A6CD346CDF0DB9A753A39090 /* GPBArray_PackagePrivate.h */,
+				540B2D2CBD1C17660F3ED370958484B8 /* GPBBootstrap.h */,
+				CCCC637CB53D0538C2506E95224E1257 /* GPBCodedInputStream.h */,
+				1FA04AC13CFC73F6CE9A4DED9CE97908 /* GPBCodedInputStream.m */,
+				BEE4D1E30EF324F593A1FC334C3C79D8 /* GPBCodedInputStream_PackagePrivate.h */,
+				ED712B0D3871CCA85C312BC2282A4D51 /* GPBCodedOutputStream.h */,
+				3144A339047FF93537D206919CD8123B /* GPBCodedOutputStream.m */,
+				8F650B9F7CD0DFCCBE4F47028DA2A88B /* GPBCodedOutputStream_PackagePrivate.h */,
+				6DF2B5848E0B8DD0038079C4F46E73D7 /* GPBDescriptor.h */,
+				3C5FFA7382C895811E3B0023C0F41A23 /* GPBDescriptor.m */,
+				1A954DE546890C19A47689E7880DEB58 /* GPBDescriptor_PackagePrivate.h */,
+				C0B66BBE7A2E9B28EE087721F90D00F2 /* GPBDictionary.h */,
+				403E122259C6D09E8CA6642A34DFD387 /* GPBDictionary.m */,
+				DD120B7A683C50623F2D70ACB691D30E /* GPBDictionary_PackagePrivate.h */,
+				F935CCABB5F02337BDDE8E5F38F3069D /* GPBExtensionInternals.h */,
+				9E0E29E974A875544C2664856945600F /* GPBExtensionInternals.m */,
+				2E536CB0A86E891E53BBBCE77E73737B /* GPBExtensionRegistry.h */,
+				2E3145450B8C4DA84CE065BF8059AC12 /* GPBExtensionRegistry.m */,
+				1618937E888411B5734B28440C9984BB /* GPBMessage.h */,
+				A7ED402B02A8F914913B199E8524129B /* GPBMessage.m */,
+				19E913B80F30C3E8FAAFEA39F93B2E2F /* GPBMessage_PackagePrivate.h */,
+				9FE01C0885F4C0235FE15152DD46C589 /* GPBProtocolBuffers.h */,
+				8952804670E9F30C536634A5CFBB8C7B /* GPBProtocolBuffers_RuntimeSupport.h */,
+				9EA8A3C6BF5B08B278E78881E31D040D /* GPBRootObject.h */,
+				2587BF16BB234A7A454FB192744EEF0B /* GPBRootObject.m */,
+				4257DCAC74DB9528BE30D480C83A0614 /* GPBRootObject_PackagePrivate.h */,
+				C0F15AF57D88CBECACCD6280434B04F4 /* GPBRuntimeTypes.h */,
+				7D59C3004FDCA38525EE2EC0EA6A86E7 /* GPBUnknownField.h */,
+				CC776ACF734C9EAD15DA52BA321A061C /* GPBUnknownField.m */,
+				2E2A9FEFA9D13AEDC72FECE90E8ADF06 /* GPBUnknownField_PackagePrivate.h */,
+				AAE41CCD2EF876A2901422565A318450 /* GPBUnknownFieldSet.h */,
+				B2A6D92AEE6DA9E51EFEDB35B8CB850F /* GPBUnknownFieldSet.m */,
+				DD7791BE8EB96D30317E4AA74D170EBD /* GPBUnknownFieldSet_PackagePrivate.h */,
+				9E63401A4016579D0174BC4CF2130180 /* GPBUtilities.h */,
+				AF2EA46D8AA4FAEA8F6A3270C49D6FFD /* GPBUtilities.m */,
+				5CD6A8E93072E973518F5B71F6F0228B /* GPBUtilities_PackagePrivate.h */,
+				FBC167413116C6A3D5CB6A6FF890684A /* GPBWellKnownTypes.h */,
+				6350E3F8D26F471341917F83FFA34173 /* GPBWellKnownTypes.m */,
+				DF3EBD0AB922CCB3EEA466256111AD6E /* GPBWireFormat.h */,
+				08FD64A48EE22B8B96AC74D7B5F9ED9D /* GPBWireFormat.m */,
+				83B4ABDC75BD3D90ED81B8E3493A181B /* SourceContext.pbobjc.h */,
+				AC767302BE2740A218AB38624FAF415D /* SourceContext.pbobjc.m */,
+				B9DB2913D1A90A71CF70E840F03289A9 /* Struct.pbobjc.h */,
+				EA487A96C086BF8484214DD55DCE2F2A /* Struct.pbobjc.m */,
+				1EF7A1D9262A7F997B1CB962C559EDFB /* Timestamp.pbobjc.h */,
+				FFB0B082A039C59F90E978F02C6326E5 /* Timestamp.pbobjc.m */,
+				12678477998C033F1E20696535904D0D /* Type.pbobjc.h */,
+				3A48D3AFA32C77CF2B0E0EF95B65114B /* Type.pbobjc.m */,
+				EB0EE329D8FF6EA2AF9AC450D83516C7 /* Wrappers.pbobjc.h */,
+				66511A40A137AF4ED38BD50124E409C3 /* Wrappers.pbobjc.m */,
+				FA547AB1CB08DE59770A5A099797F90A /* Support Files */,
+			);
+			path = Protobuf;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				30EF295669D4BF8BD0005016018B2179 /* Pods */,
+				458E9803BDEF9C0101F4F89383C1C52B /* Products */,
+				08F69B7E8BE0BED9452B5C8985B1CEF2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82EF8E767DB21EA2C6B3379F8568E7D7 /* Pods-PushDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4DCD617CE4CE0BC53F18CBAA66541BF /* Pods-PushDemoTests-acknowledgements.markdown */,
+				8E9BE954FB89220166C87B8B5206D83D /* Pods-PushDemoTests-acknowledgements.plist */,
+				A97947A6CA984F3C2538D771D4F723FF /* Pods-PushDemoTests-dummy.m */,
+				F817B26FA6E1E9546E7C721A922DE053 /* Pods-PushDemoTests-frameworks.sh */,
+				8016D2A445C75E16EF4D3766700337AC /* Pods-PushDemoTests-resources.sh */,
+				C813D0E6986B80C25CC10FB0AE89EC92 /* Pods-PushDemoTests.debug.xcconfig */,
+				F93117CAEB7BCFB3B03A42AB80DD83FA /* Pods-PushDemoTests.release.xcconfig */,
+			);
+			name = "Pods-PushDemoTests";
+			path = "Target Support Files/Pods-PushDemoTests";
+			sourceTree = "<group>";
+		};
+		9318C1E5ECBC8F5A758A08B10663843F /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				D80AD96E6BC0505B4B15753C17023B9D /* Frameworks */,
+			);
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		951560038475051860FDE2F5E2095077 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36D1B1AABDB953FBA64CFE848B4AFC09 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7828F15B8E97840FBA6E99D8D1CC18B /* Pods-PushDemo */ = {
+			isa = PBXGroup;
+			children = (
+				45115BA72E40EF3406639CEFA4D22429 /* Pods-PushDemo-acknowledgements.markdown */,
+				4C8FF34AD6A668E267BADB6B8B0DC6E6 /* Pods-PushDemo-acknowledgements.plist */,
+				38AEF37528A48804893BDE22BF4F65C4 /* Pods-PushDemo-dummy.m */,
+				1F9776517EDFA82DB5270BC39B1EE73A /* Pods-PushDemo-frameworks.sh */,
+				F60DF1C458CB32F0C8777126EA40A1D6 /* Pods-PushDemo-resources.sh */,
+				1FABBB45ED5DA26517E707FB87509F45 /* Pods-PushDemo.debug.xcconfig */,
+				7B3A2CC3512CC7155AD8675DC0EAECF6 /* Pods-PushDemo.release.xcconfig */,
+			);
+			name = "Pods-PushDemo";
+			path = "Target Support Files/Pods-PushDemo";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C383707B934D0A3A945B0C4B0D1F5D6C /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				B5D730424C36A9D0BB12473678C5C609 /* GTMNSData+zlib.h */,
+				62EAF55A7EE5B2037B8244AFD62E4C61 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		D80AD96E6BC0505B4B15753C17023B9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF5AA8FE9E9E725AAEC5D70A9B690572 /* FirebaseCore.framework */,
+				66386A83E51D8882A06B4826D556C639 /* FirebaseCoreDiagnostics.framework */,
+				5D3D0F2D34FBA8D3607147A7D67AA9F3 /* FirebaseNanoPB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC3CE45745761B95D10E8E9F2908FD08 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E02229F0115D720F63F7F4792EF69F97 /* GoogleToolboxForMac.xcconfig */,
+				CE503410B599E7B4E0E4A35111B6C154 /* GoogleToolboxForMac-dummy.m */,
+				37AB8523D4B5F7828206A8D829687D3F /* GoogleToolboxForMac-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		ED480C2E9FB7E69F8950ED16CE5B8F8F /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				19306A63D276A736E5AB1201E0462FD1 /* Defines */,
+				450CD6ED4C96E2EF7A2C4FFE8E57C23B /* Logger */,
+				C383707B934D0A3A945B0C4B0D1F5D6C /* NSData+zlib */,
+				EC3CE45745761B95D10E8E9F2908FD08 /* Support Files */,
+			);
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		FA547AB1CB08DE59770A5A099797F90A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4985912EC58108202C6D3C1DE1C43152 /* Protobuf.xcconfig */,
+				C0317CC4332742F7BBFD8954FFEF65EA /* Protobuf-dummy.m */,
+				23DF27EFB5A4DDDC05A71D8BBF41D407 /* Protobuf-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Protobuf";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		56E39210A6683641C50EE02D66D85047 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				758939102FC0D70E54640E471BC2D4A0 /* Any.pbobjc.h in Headers */,
+				CE93F41A7B7F305A2D94AE89B03AEC9B /* Api.pbobjc.h in Headers */,
+				0F3FAE8076160F44C39C5319F14A96EA /* Duration.pbobjc.h in Headers */,
+				CCA230CB1CE85A7FFFC5307F04517972 /* Empty.pbobjc.h in Headers */,
+				069FE75DD4628E3C9D7BA2432AC9A6F7 /* FieldMask.pbobjc.h in Headers */,
+				149A0407E1E29F7314EE7B36B11D5196 /* GPBArray.h in Headers */,
+				277108075AF236B0609B0096A489FC16 /* GPBArray_PackagePrivate.h in Headers */,
+				F025E232AF858C92BFF3655752356EEB /* GPBBootstrap.h in Headers */,
+				CC166033E198B2DDB73A06302BF87BD0 /* GPBCodedInputStream.h in Headers */,
+				EB80E091D1CBA01D78225C9E1EFD4E5A /* GPBCodedInputStream_PackagePrivate.h in Headers */,
+				41F07A618BF545698F3F35BB949CD120 /* GPBCodedOutputStream.h in Headers */,
+				FF80BABD40FBA5E6202DC450E819FFA2 /* GPBCodedOutputStream_PackagePrivate.h in Headers */,
+				EBB5AF86577891EBAB7DDEDDABA17E88 /* GPBDescriptor.h in Headers */,
+				DA3677BE7C670CBB27DEF56F580F0AEE /* GPBDescriptor_PackagePrivate.h in Headers */,
+				9FCD29D9F6BECB3156C2037BFD3B7279 /* GPBDictionary.h in Headers */,
+				E80E9A8F150FA96C2224FD7F1DEF2D5A /* GPBDictionary_PackagePrivate.h in Headers */,
+				91E009D459BE3C28B94C2CE08CF3DFD2 /* GPBExtensionInternals.h in Headers */,
+				0F3F8DE8519D0B383766CB2D870E3BA8 /* GPBExtensionRegistry.h in Headers */,
+				B03270A7B24CA0B523698CA0C1795656 /* GPBMessage.h in Headers */,
+				0865B9957615CBB7F273C5198FD3CDC8 /* GPBMessage_PackagePrivate.h in Headers */,
+				9ACCC2D1AC90F1B09B5FB63113406387 /* GPBProtocolBuffers.h in Headers */,
+				3A7726D07D4E9133258986D5CDA233C6 /* GPBProtocolBuffers_RuntimeSupport.h in Headers */,
+				9E072C3F652D638429C9E23515265CEE /* GPBRootObject.h in Headers */,
+				9210CCF2C78B3808BB188773153D5A99 /* GPBRootObject_PackagePrivate.h in Headers */,
+				870B1982FA00C85169A06F6799CF5931 /* GPBRuntimeTypes.h in Headers */,
+				23DB15172B47A04F12CD04927E1B0327 /* GPBUnknownField.h in Headers */,
+				26085A26768440459BB5D60D644FDFCA /* GPBUnknownField_PackagePrivate.h in Headers */,
+				729ADA4F4A922F14ACBC6CDF123DB176 /* GPBUnknownFieldSet.h in Headers */,
+				499191CC9235D8BA880E608BA08648E5 /* GPBUnknownFieldSet_PackagePrivate.h in Headers */,
+				456D773F80265C45CC7566CE1386C5E1 /* GPBUtilities.h in Headers */,
+				1430E94183430938989160927116B86C /* GPBUtilities_PackagePrivate.h in Headers */,
+				2FCD31A6F5B9699D6F37D0D799E5EF9B /* GPBWellKnownTypes.h in Headers */,
+				DA526E3EBEEF993EF10CD2EB38CE5480 /* GPBWireFormat.h in Headers */,
+				A914AE3EDFD9FDFBCBE010DEA271B523 /* SourceContext.pbobjc.h in Headers */,
+				E68D622007E93277C291D5F43F063BC5 /* Struct.pbobjc.h in Headers */,
+				BA2AFABC6E79953DB9AFDD1CF882378A /* Timestamp.pbobjc.h in Headers */,
+				22CC3AB1CBBF6D601D4D7CE901055940 /* Type.pbobjc.h in Headers */,
+				37DF8AA3AFD7B8F3183E3642A358599B /* Wrappers.pbobjc.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFA3707236961F612C2CEE457E70D95F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCF30723C37590732E0B4752E6E3695 /* GTMDefines.h in Headers */,
+				7DCC49F8BB823F38B700A32F5294AC14 /* GTMLogger.h in Headers */,
+				B9B1FC27A45405D7C21FE884CBA47090 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4235CF0411A86949C23B9C1573C64497 /* Pods-PushDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE88A57D9791D955AB39170BC54016D2 /* Build configuration list for PBXNativeTarget "Pods-PushDemoTests" */;
+			buildPhases = (
+				286E27A7CEDC7CB62D61C712B77447DD /* Sources */,
+				46A1E1EE173E59EFAE13DE6EDC035662 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PushDemoTests";
+			productName = "Pods-PushDemoTests";
+			productReference = 35D547B2513B9314C87618204F78FE62 /* libPods-PushDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		75FE2B7466909B645B9FCA3BB72273C9 /* Pods-PushDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A09B991B84E68E310E050AECF5C78852 /* Build configuration list for PBXNativeTarget "Pods-PushDemo" */;
+			buildPhases = (
+				68AAC02F46AADA29A8B85E79D429CCA4 /* Sources */,
+				145981F259D9CA2C1B46AB9F4CF2483E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F9518C02CEB530A02156E76E6D5F35B /* PBXTargetDependency */,
+				5A18B5AF3ABBB1335E0DE980C25E9A42 /* PBXTargetDependency */,
+			);
+			name = "Pods-PushDemo";
+			productName = "Pods-PushDemo";
+			productReference = 18AE9201AF909848D4144716CC7050C2 /* libPods-PushDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B800FD675250D5E175A9377B8456C387 /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF782E2B3B408A49B0DAA4114EC7E2C2 /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				D19E85AFE0527DFC6F9C849D40679F1C /* Sources */,
+				EA55702A44C9E35CCC81EA07A9830302 /* Frameworks */,
+				FFA3707236961F612C2CEE457E70D95F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = D460071AD86AE051EE77A45C8175D7FB /* libGoogleToolboxForMac.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DFA7CBA59B14A8728F881517A190A475 /* Protobuf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BC0116BED15D185CAAFE9E01711D7D /* Build configuration list for PBXNativeTarget "Protobuf" */;
+			buildPhases = (
+				F95F36D9F520C599DF04FA831EA3346E /* Sources */,
+				62A21AD3C2346AC7A1A64B97C477348E /* Frameworks */,
+				56E39210A6683641C50EE02D66D85047 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Protobuf;
+			productName = Protobuf;
+			productReference = E4A5EB4C02C08BF5564A410817CA8904 /* libProtobuf.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E779BB64E42DC7DB58973580EB440758 /* Pods-PushDemo-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C50AF5245DDAFF039DEF75FD1B3E0447 /* Build configuration list for PBXNativeTarget "Pods-PushDemo-tvOSTests" */;
+			buildPhases = (
+				DF94AE685051A13EECB7784C8003A464 /* Sources */,
+				369C1576D461903930A87F451F8BD65A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PushDemo-tvOSTests";
+			productName = "Pods-PushDemo-tvOSTests";
+			productReference = 47B2478294CD0BDC89AD4A48441D8D21 /* libPods-PushDemo-tvOSTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 458E9803BDEF9C0101F4F89383C1C52B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B800FD675250D5E175A9377B8456C387 /* GoogleToolboxForMac */,
+				75FE2B7466909B645B9FCA3BB72273C9 /* Pods-PushDemo */,
+				E779BB64E42DC7DB58973580EB440758 /* Pods-PushDemo-tvOSTests */,
+				4235CF0411A86949C23B9C1573C64497 /* Pods-PushDemoTests */,
+				DFA7CBA59B14A8728F881517A190A475 /* Protobuf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286E27A7CEDC7CB62D61C712B77447DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484927DA7B920B1CAADA9A79AB1AD45C /* Pods-PushDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68AAC02F46AADA29A8B85E79D429CCA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				675AB20DF6B3046D7D71FEBF11C1EADB /* Pods-PushDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D19E85AFE0527DFC6F9C849D40679F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EEF4F3F3554CFECA940B9523BBF8DA4 /* GoogleToolboxForMac-dummy.m in Sources */,
+				72711DD579724A88CDD3892CDE0F1933 /* GTMLogger.m in Sources */,
+				84A28BD4014C0319F851CDE094B5C47B /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF94AE685051A13EECB7784C8003A464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037D5E4AE59FCBE40ADAB25D1E1FE856 /* Pods-PushDemo-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95F36D9F520C599DF04FA831EA3346E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3BAABBDEE9B3B5BDD70C7EC857CB63 /* Any.pbobjc.m in Sources */,
+				214451DCA6AC6C49BBD25FE944F33A1D /* Api.pbobjc.m in Sources */,
+				A41A7F0049C5D600BD7C768884EA88C3 /* Duration.pbobjc.m in Sources */,
+				E294277A3AAD0A62FB3B5F71F2B38D5A /* Empty.pbobjc.m in Sources */,
+				B29259BD1B6E827F5C2562FBE47CBF7F /* FieldMask.pbobjc.m in Sources */,
+				54A0B5674C6772EF76D3EFD443B30E2E /* GPBArray.m in Sources */,
+				D34B873B86E3DF268939DF316AA1CD7D /* GPBCodedInputStream.m in Sources */,
+				03F26A2107D0A88E448492A51242E5FD /* GPBCodedOutputStream.m in Sources */,
+				C7F1E431CA6F0EE1AFFBA5A545390A94 /* GPBDescriptor.m in Sources */,
+				82125A009576BC2CC4CA71B501331A42 /* GPBDictionary.m in Sources */,
+				43F9C706CC19432B63EB5BCD0354D496 /* GPBExtensionInternals.m in Sources */,
+				FBB420201E868D90FF6096FC30A51F11 /* GPBExtensionRegistry.m in Sources */,
+				8CFC46D60BEDF9B6E733474FC5549358 /* GPBMessage.m in Sources */,
+				8785C713ED568CCE32BE45F163503539 /* GPBRootObject.m in Sources */,
+				5F5F7D0AEB64E82129924CA64B3D13C1 /* GPBUnknownField.m in Sources */,
+				B10868F236194235EE1FF7A7093D70D4 /* GPBUnknownFieldSet.m in Sources */,
+				9845AE9B743700CC12E3973DAC7BEB8E /* GPBUtilities.m in Sources */,
+				1105EA8F374E750DF243FB9537F19D9B /* GPBWellKnownTypes.m in Sources */,
+				86720AC406506A010160DF4027FADEAB /* GPBWireFormat.m in Sources */,
+				CA0FF971AAC052FC4256F633E119BAF2 /* Protobuf-dummy.m in Sources */,
+				7C8EAD3AC6015AB25EA5D06951335C52 /* SourceContext.pbobjc.m in Sources */,
+				5CEF11291B7E980F400C19BF611E84AA /* Struct.pbobjc.m in Sources */,
+				79574E8B1967C430D190A4E7E8B5005F /* Timestamp.pbobjc.m in Sources */,
+				E2E91BB69902CB8A4075D3551A4F8C2D /* Type.pbobjc.m in Sources */,
+				18ADE3FA4F8B60066FE852F9571B563A /* Wrappers.pbobjc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A18B5AF3ABBB1335E0DE980C25E9A42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Protobuf;
+			target = DFA7CBA59B14A8728F881517A190A475 /* Protobuf */;
+			targetProxy = EE83995EC42AA42C4A457C3469BE28DC /* PBXContainerItemProxy */;
+		};
+		8F9518C02CEB530A02156E76E6D5F35B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = B800FD675250D5E175A9377B8456C387 /* GoogleToolboxForMac */;
+			targetProxy = 0016524160DC32D25AA851C439A0ADF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		127532DB890A255607C9AEC81BA09A7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02229F0115D720F63F7F4792EF69F97 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1286318CC6FE75F8074A3D10EF6E6F80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C813D0E6986B80C25CC10FB0AE89EC92 /* Pods-PushDemoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2A46FA5E2A2E36C5A0D4DEE39663887C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4985912EC58108202C6D3C1DE1C43152 /* Protobuf.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		56A46776653F13CA75FC3B865E30C741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4985912EC58108202C6D3C1DE1C43152 /* Protobuf.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Protobuf/Protobuf-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5CB24DB22C4B4328AE6238438D5E96FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9F14C2DCDDD65C5B6AAEC479D2D7DD /* Pods-PushDemo-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		90970288243CABAAC5A752E0BC2AD842 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF2DC3B9FAAD5463A0CE71136231D6D9 /* Pods-PushDemo-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD270554E3D63B6BB1BB3293C68B9997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02229F0115D720F63F7F4792EF69F97 /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C0B958B420E418C29C0C9F1ED400CE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FABBB45ED5DA26517E707FB87509F45 /* Pods-PushDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D80CBF72669874399F97F838A5C263F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B3A2CC3512CC7155AD8675DC0EAECF6 /* Pods-PushDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4EBD8E5E7BB6FCD10E70807008EC5A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F93117CAEB7BCFB3B03A42AB80DD83FA /* Pods-PushDemoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03BC0116BED15D185CAAFE9E01711D7D /* Build configuration list for PBXNativeTarget "Protobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A46FA5E2A2E36C5A0D4DEE39663887C /* Debug */,
+				56A46776653F13CA75FC3B865E30C741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A09B991B84E68E310E050AECF5C78852 /* Build configuration list for PBXNativeTarget "Pods-PushDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0B958B420E418C29C0C9F1ED400CE38 /* Debug */,
+				D80CBF72669874399F97F838A5C263F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF782E2B3B408A49B0DAA4114EC7E2C2 /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD270554E3D63B6BB1BB3293C68B9997 /* Debug */,
+				127532DB890A255607C9AEC81BA09A7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C50AF5245DDAFF039DEF75FD1B3E0447 /* Build configuration list for PBXNativeTarget "Pods-PushDemo-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90970288243CABAAC5A752E0BC2AD842 /* Debug */,
+				5CB24DB22C4B4328AE6238438D5E96FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE88A57D9791D955AB39170BC54016D2 /* Build configuration list for PBXNativeTarget "Pods-PushDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1286318CC6FE75F8074A3D10EF6E6F80 /* Debug */,
+				E4EBD8E5E7BB6FCD10E70807008EC5A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
